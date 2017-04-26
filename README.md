@@ -1,6 +1,6 @@
 # npmtest-grunt-contrib-qunit
 
-#### test coverage for  [grunt-contrib-qunit (v2.0.0)](https://github.com/gruntjs/grunt-contrib-qunit#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-contrib-qunit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-contrib-qunit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-contrib-qunit.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-contrib-qunit)
+#### basic test coverage for  [grunt-contrib-qunit (v2.0.0)](https://github.com/gruntjs/grunt-contrib-qunit#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-contrib-qunit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-contrib-qunit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-contrib-qunit.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-contrib-qunit)
 
 #### Run QUnit unit tests in a headless PhantomJS instance
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-contrib-qunit/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-contrib-qunit/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-contrib-qunit/build/coverage.html/index.html)
 
@@ -181,7 +181,8 @@
     "scripts": {
         "test": "grunt test --stack"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
